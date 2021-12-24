@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchScreen Should render Batman and input with the value of the queryString 1`] = `
+Array [
+  <h1
+    className="text-center"
+  >
+     Search screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-outline-primary mt-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h1
+        className="text-center"
+      >
+        Hero Result - (
+        1
+        )
+      </h1>
+      <hr />
+      <div
+        className="animate__animated animate__fadeIn"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card"
+          >
+            <div
+              className="row no-gutters"
+            >
+              <div
+                className="col-4"
+              >
+                <img
+                  alt="Batman"
+                  className="card-img"
+                  src="/assets/dc-batman.jpg"
+                />
+              </div>
+              <div
+                className="col-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Batman
+                  </h5>
+                  <p
+                    className="card-text"
+                  >
+                    Bruce Wayne
+                  </p>
+                  <p
+                    className="card-text"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #27
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-batman"
+                    onClick={[Function]}
+                  >
+                    More..
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`SearchScreen Should render Hero do not found and input with the value of the queryString 1`] = `
+Array [
+  <h1
+    className="text-center"
+  >
+     Search screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value="batman123"
+        />
+        <button
+          className="btn btn-outline-primary mt-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+        Hero do not found...
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`SearchScreen Should render component defult 1`] = `
+Array [
+  <h1
+    className="text-center"
+  >
+     Search screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-primary mt-1"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Hero found...
+      </div>
+    </div>
+  </div>,
+]
+`;

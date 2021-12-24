@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrivateRoute should block component is the user is not authenticate 1`] = `
+<span>
+  Exit component
+</span>
+`;
+
+exports[`PrivateRoute should show of the component if user is autenticate and save in the localstorage 1`] = `
+<h1>
+  Render component
+</h1>
+`;
